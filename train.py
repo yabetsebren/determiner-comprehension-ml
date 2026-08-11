@@ -1,18 +1,11 @@
 """
 Train and evaluate the determiner-comprehension classifiers.
-
-Reads a de-identified feature table (one row per child) and a target column,
-then runs the nested cross-validation described in the paper: everything that
-touches the labels -- imputation, scaling, and mRMR feature selection -- is fit
-inside each training fold only. Significance comes from a label-permutation test
-on the same pipeline, not from a parametric assumption.
-
 Usage:
     python train.py --data features.csv --target group --model rf
     python train.py --data features.csv --target lang_impaired --model enet --perms 1000
 
 The feature table is expected to have an "id" column, the target column, and
-the numeric feature columns. Anything else is ignored.
+the numeric feature columns. 
 """
 
 import argparse
