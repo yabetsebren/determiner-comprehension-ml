@@ -6,10 +6,10 @@ authors:
     given-names: Yabets
   - family-names: Jordan
     given-names: William
-  - family-names: Nazemi
-    given-names: Neda
   - family-names: McCrory
     given-names: Bernadette
+  - family-names: Nazemi
+    given-names: Neda
   - family-names: Modyanova
     given-names: Nadezhda
 preferred-citation:
@@ -20,10 +20,10 @@ preferred-citation:
       given-names: Yabets
     - family-names: Jordan
       given-names: William
-    - family-names: Nazemi
-      given-names: Neda
     - family-names: McCrory
       given-names: Bernadette
+    - family-names: Nazemi
+      given-names: Neda
     - family-names: Modyanova
       given-names: Nadezhda
   journal: "Journal of Speech, Language, and Hearing Research"
