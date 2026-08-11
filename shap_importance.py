@@ -1,11 +1,3 @@
-"""Rank feature importance with SHAP.
-
-Fits a random forest on the full sample and reports each feature's mean absolute
-SHAP value (TreeExplainer). This is the descriptive importance analysis behind
-the paper's importance figure; it is not part of the cross-validated prediction,
-so treat the ordering as where the signal was concentrated, not exact ranks.
-"""
-
 import argparse
 import numpy as np
 import pandas as pd
