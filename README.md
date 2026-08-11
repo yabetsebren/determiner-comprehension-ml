@@ -25,8 +25,6 @@ python train.py --data examples/demo_features.csv --target group --model rf
 # rank feature importance with SHAP
 python shap_importance.py --data examples/demo_features.csv --target group
 
-# run the tests
-pytest
 ```
 
 A feature table is one row per child: an `id` column, the target column, and
