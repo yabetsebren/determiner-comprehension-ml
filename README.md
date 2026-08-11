@@ -1,7 +1,7 @@
 # determiner-comprhension-ml
 
 Code for the paper *Classifying Determiner-Comprehension Subgroups and Clinical
-Status in Children: A Machine Learning Approach* (Ebren et al.).
+Status in Children: A Machine Learning Approach*.
 
 It predicts a data-driven determiner-comprehension grouping and clinical/language
 status from three sources: mouse-clicking behavior in a language game, eye
