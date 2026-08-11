@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "Determiner-comprehension subgroup classification pipeline"
+authors:
+  - family-names: Ebren
+    given-names: Yabets
+  - family-names: Jordan
+    given-names: William
+  - family-names: Nazemi
+    given-names: Neda
+  - family-names: McCrory
+    given-names: Bernadette
+  - family-names: Modyanova
+    given-names: Nadezhda
+preferred-citation:
+  type: article
+  title: "Classifying Determiner-Comprehension Subgroups and Clinical Status in Children: A Machine Learning Approach"
+  authors:
+    - family-names: Ebren
+      given-names: Yabets
+    - family-names: Jordan
+      given-names: William
+    - family-names: Nazemi
+      given-names: Neda
+    - family-names: McCrory
+      given-names: Bernadette
+    - family-names: Modyanova
+      given-names: Nadezhda
+  journal: "Journal of Speech, Language, and Hearing Research"
+  year: 2026
