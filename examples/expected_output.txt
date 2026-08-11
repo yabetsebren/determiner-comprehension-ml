@@ -1,0 +1,10 @@
+$ python train.py --data examples/demo_features.csv --target group --model enet --perms 20
+
+34 children, 20 features, 3 classes
+
+enet  macro-F1 = 0.400  95% CI [0.167, 0.693]   balanced acc = 0.447
+running 20 label permutations...
+permutation p = 0.0476
+
+# Numbers are from synthetic data and only confirm the code runs end to end.
+# Exact values shift with --model and --perms; the real results are in the paper.
