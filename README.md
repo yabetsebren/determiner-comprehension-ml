@@ -1,11 +1,11 @@
-# multimodal-determiner
+# determiner-comprhension-ml
 
 Code for the paper *Classifying Determiner-Comprehension Subgroups and Clinical
 Status in Children: A Machine Learning Approach* (Ebren et al.).
 
 It predicts a data-driven determiner-comprehension grouping and clinical/language
-status from three sources — mouse-clicking behavior in a language game, eye
-tracking, and standardized tests — using leakage-controlled nested
+status from three sources: mouse-clicking behavior in a language game, eye
+tracking, and standardized tests, using leakage-controlled nested
 cross-validation with permutation testing.
 
 ## Install
@@ -34,12 +34,12 @@ numeric feature columns.
 
 ## Layout
 
-- `train.py` — nested CV, in-fold feature selection, permutation test (main entry point)
-- `stats.py` — Benjamini-Hochberg FDR and the matched single-vs-combined test
-- `shap_importance.py` — SHAP feature ranking
-- `pipeline/` — data ingest and feature extraction from the raw recordings
-- `examples/` — synthetic feature table and a sample run
-- `tests/` — smoke tests
+- `train.py` - nested CV, in-fold feature selection, permutation test (main entry point)
+- `stats.py` - Benjamini-Hochberg FDR and the matched single-vs-combined test
+- `shap_importance.py` - SHAP feature ranking
+- `pipeline/` - data ingest and feature extraction from the raw recordings
+- `examples/` - synthetic feature table and a sample run
+- `tests/` - smoke tests
 
 ## Data
 
