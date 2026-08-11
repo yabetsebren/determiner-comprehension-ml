@@ -37,9 +37,7 @@ numeric feature columns.
 - `train.py` - nested CV, in-fold feature selection, permutation test (main entry point)
 - `stats.py` - Benjamini-Hochberg FDR and the matched single-vs-combined test
 - `shap_importance.py` - SHAP feature ranking
-- `pipeline/` - data ingest and feature extraction from the raw recordings
 - `examples/` - synthetic feature table and a sample run
-- `tests/` - smoke tests
 
 ## Data
 
